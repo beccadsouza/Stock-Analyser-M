@@ -6,11 +6,6 @@ public class User {
     private String password;
     private String name;
     private long contactNo;
-    private PersonalizedList personalizedList;
-
-    public PersonalizedList getPersonalizedList() {
-        return personalizedList;
-    }
 
     public String getUserID() {
         return userID;

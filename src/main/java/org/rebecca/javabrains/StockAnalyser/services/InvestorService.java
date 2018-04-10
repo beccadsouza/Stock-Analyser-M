@@ -2,6 +2,9 @@ package org.rebecca.javabrains.StockAnalyser.services;
 
 import org.rebecca.javabrains.StockAnalyser.database.DBconnection;
 import org.rebecca.javabrains.StockAnalyser.model.Investor;
+import org.rebecca.javabrains.StockAnalyser.model.QuarterDetails;
+import org.rebecca.javabrains.StockAnalyser.model.Scoreboard;
+import org.rebecca.javabrains.StockAnalyser.model.SectorDetails;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -30,56 +33,37 @@ public class InvestorService {
         return investor;
     }
 
-    public List<Investor> getTopInvestors(int top){
-        List<Investor> list = new ArrayList<>();
-        try {
+    public List<Scoreboard> getScoreBoard(){
+        List<Scoreboard> list = new ArrayList<>();
+        try{
             Connection connection = jdbcConnection.getConnnection();
-            PreparedStatement ps = connection.prepareStatement
-                    ("select * from investor order by holding_conc limit "+top+"");
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()){
-                list.add(new Investor(rs.getString("description"),rs.getString("address"),
-                        rs.getInt("no_clients"), rs.getString("type"), rs.getString("state")
-                        ,rs.getString("city"),rs.getString("name"), rs.getString("investor_id"),
-                        rs.getString("registration"),rs.getDouble("holding_conc")));
-            }
-        } catch (SQLException e) {
+            PreparedStatement ps = connection.prepareStatement("select 4/2");
+            //ResultSet rs = ps.executeQuery();
+        }catch (SQLException e){
             e.printStackTrace();
         }
         return list;
     }
 
-    public List<Investor> getInvestorsByCompany(String companyName){
-        List<Investor> list = new ArrayList<>();
-        try {
+    public List<SectorDetails> getSectorDetails(String investorID){
+        List<SectorDetails> list = new ArrayList<>();
+        try{
             Connection connection = jdbcConnection.getConnnection();
-            PreparedStatement ps = connection.prepareStatement("select * from investor as i inner join holding as h on i.investor_id = h.investor_id inner join company as c on c.company_id = h.company_id where c.name = '"+companyName+"'");
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()){
-                list.add(new Investor(rs.getString("description"),rs.getString("address"),
-                        rs.getInt("no_clients"), rs.getString("type"), rs.getString("state")
-                        ,rs.getString("city"),rs.getString("name"), rs.getString("investor_id"),
-                        rs.getString("registration"),rs.getDouble("holding_conc")));
-            }
-        } catch (SQLException e) {
+            PreparedStatement ps = connection.prepareStatement("select 4/2");
+            //ResultSet rs = ps.executeQuery();
+        }catch (SQLException e){
             e.printStackTrace();
         }
         return list;
     }
 
-    public List<Investor> getAllInvestors(){
-        List<Investor> list = new ArrayList<>();
-        try {
+    public List<QuarterDetails> getQuarterDetails(String investorID){
+        List<QuarterDetails> list = new ArrayList<>();
+        try{
             Connection connection = jdbcConnection.getConnnection();
-            PreparedStatement ps = connection.prepareStatement("select * from investor");
-            ResultSet rs = ps.executeQuery();
-            while (rs.next()){
-                list.add(new Investor(rs.getString("description"),rs.getString("address"),
-                        rs.getInt("no_clients"), rs.getString("type"), rs.getString("state")
-                        ,rs.getString("city"),rs.getString("name"), rs.getString("investor_id"),
-                        rs.getString("registration"),rs.getDouble("holding_conc")));
-            }
-        } catch (SQLException e) {
+            PreparedStatement ps = connection.prepareStatement("select 4/2");
+            //ResultSet rs = ps.executeQuery();
+        }catch (SQLException e){
             e.printStackTrace();
         }
         return list;
