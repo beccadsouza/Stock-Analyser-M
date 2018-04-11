@@ -8,32 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e554a3f9-1586-4cf6-a1fa-c6c6fd6352c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/BarGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/BarGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Holding.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services list" beforeDir="false" afterPath="$PROJECT_DIR$/src/services list" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/model/BarGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/model/BarGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/model/Holding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/CompanyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/CompanyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/model/BarGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/model/BarGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/model/Holding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/CompanyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/CompanyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,15 +54,24 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InvestorResource.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java">
+    <leaf>
+      <file leaf-file-name="InvestorService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="248">
+              <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -154,7 +138,6 @@
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Picks.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Consensus.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/BarGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql" />
@@ -164,6 +147,7 @@
         <option value="$PROJECT_DIR$/src/services list" />
         <option value="$PROJECT_DIR$/src/url list" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" />
       </list>
     </option>
   </component>
@@ -206,7 +190,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -323,8 +306,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -529,12 +513,13 @@
       <workItem from="1523209271108" duration="1926000" />
       <workItem from="1523249932420" duration="3882000" />
       <workItem from="1523367921028" duration="15747000" />
-      <workItem from="1523430392516" duration="10357000" />
+      <workItem from="1523430392516" duration="10960000" />
+      <workItem from="1523459572076" duration="423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112905000" />
+    <option name="totallyTimeSpent" value="113931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -558,23 +543,23 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32913387" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.49016643" />
       <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.49016643" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="SQL" order="16" weight="0.32913387" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.31770045" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2306003" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28696924" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.31770045" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.3984252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,13 +654,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/PersonalizedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Holding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Holding.java" />
     <entry file="das://669feea3-cc1a-4b4d-b7af-cf9b36974d70/schema/stock_analyser/table/company">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -704,23 +683,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="56" selection-start-line="62" selection-start-column="56" selection-end-line="62" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/database/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -803,43 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1160#1161#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1469#1470#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1644#1645#0" expanded="true" />
-            <element signature="e#1692#1693#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1812#1813#0" expanded="true" />
-            <element signature="e#1872#1873#0" expanded="true" />
-            <element signature="e#1924#1925#0" expanded="true" />
-            <element signature="e#1969#1970#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2138#2139#0" expanded="true" />
-            <element signature="e#2182#2183#0" expanded="true" />
-            <element signature="e#2222#2223#0" expanded="true" />
-            <element signature="e#2288#2289#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-            <element signature="e#2422#2423#0" expanded="true" />
-            <element signature="e#2480#2481#0" expanded="true" />
-            <element signature="e#2530#2531#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,44 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#951#952#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1277#1278#0" expanded="true" />
-            <element signature="e#1331#1332#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
-            <element signature="e#1403#1404#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1637#1638#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1765#1766#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#1916#1917#0" expanded="true" />
-            <element signature="e#1951#1952#0" expanded="true" />
-            <element signature="e#2007#2008#0" expanded="true" />
-            <element signature="e#2055#2056#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -916,13 +807,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="66" lean-forward="true" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -934,48 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1225#1226#0" expanded="true" />
-            <element signature="e#1263#1264#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1397#1398#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1503#1504#0" expanded="true" />
-            <element signature="e#1539#1540#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#1645#1646#0" expanded="true" />
-            <element signature="e#1681#1682#0" expanded="true" />
-            <element signature="e#1723#1724#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-            <element signature="e#1877#1878#0" expanded="true" />
-            <element signature="e#1915#1916#0" expanded="true" />
-            <element signature="e#1949#1950#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2049#2050#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
-            <element signature="e#2155#2156#0" expanded="true" />
-            <element signature="e#2193#2194#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2269#2270#0" expanded="true" />
-            <element signature="e#2327#2328#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-            <element signature="e#2418#2419#0" expanded="true" />
-            <element signature="e#2455#2456#0" expanded="true" />
-            <element signature="e#2515#2516#0" expanded="true" />
-            <element signature="e#2567#2568#0" expanded="true" />
-            <element signature="e#2606#2607#0" expanded="true" />
-            <element signature="e#2641#2642#0" expanded="true" />
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#2745#2746#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -993,9 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
           <caret line="22" column="86" selection-start-line="22" selection-start-column="86" selection-end-line="22" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,9 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1027,6 +860,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

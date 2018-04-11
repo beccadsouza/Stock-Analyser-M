@@ -40,8 +40,8 @@ public class InvestorService {
             PreparedStatement ps = connection.prepareStatement("select i.investor_id,i.name,i.city,i.state,sum(h.market_value),\n" +
                     "(select company_id from holding where investor_id = h.investor_id and market_value = max(h.market_value))\n" +
                     "from investor as i inner join holding as h\n" +
-                    "where i.investor_id = h.investor_id /*and h.quarter_no = 4*/\n" +
-                    "group by i.investor_id,i.name,i.city,i.state;");
+                    "where i.investor_id = h.investor_id and h.quarter_no = 4\n" +
+                    "group by i.investor_id,i.name,i.city,i.state order by sum(h.market_value) desc");
             ResultSet rs = ps.executeQuery();
             long rank = 0;
             while (rs.next()){
