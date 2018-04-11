@@ -12,17 +12,17 @@ investor details ///////////////////////// ~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOOO
 url : investors/portfolio/investorID
 
 holding details
-create class ////////////////////// ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+create class ////////////////////// ~~~~~~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOO
 member variables : company id, company name,ticker,sector,principal amount, market value, quarter period, per change, change in shares, %portfolio = (market value/sum(market value))
 url : holdings/investorID
 
 sector details
-create class ////////////////////// ~~~~~~~~~~~~~~~~~~~~~~~
+create class ////////////////////// ~~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOOOOOOO
 member variables : sector, sum(market value)
 url : investors/sectors/investorID
 
 quarter details
-create class ////////////////////// ~~~~~~~~~~~~~~~~~~~~~~
+create class ////////////////////// ~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOOOOOOO
 member variables : quarter no, sum(market value)
 url : investors/quarters/investorID
 ------------------------------------------
@@ -46,18 +46,18 @@ company details ///////////////////////~~~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOO
 url : company/companyID
 
 holding details
-create class //////////////////////~~~~~~~~~~~~~~~~~~~~~~~~
+create class //////////////////////~~~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOOOOOOOOOOO
 member variables : investor id, investor name, investor city, investor state, principal amount, market value,per change, change in shares, %portfolio = (market value/sum(market value))
 query param : quarter no
 url : holdings?quarterNo=&companyID=
 
 quarter details
-create class ///////////////////////~~~~~~~~~~~~~~~~~~~~~~~~
+create class ///////////////////////~~~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOOOOOOOOOOOO
 member variables : quarter no, sum(market value)
 url : company/quarters/companyID
 
 bar graph
-create class ///////////////////////~~~~~~~~~~~~~~~~~~~~~~~~
+create class ///////////////////////~~~~~~~~~~~~~~~~~~~~~~~~OOOOOOOOOOOOOOOOOOOOOOOOOO
 member variables : investor name, sum(market value) by Q1, sum(market value) by Q2, sum(market value) by Q3, sum(market value) by Q4
-url : company/bar-graph
+url : company/bargraph/companyID
 -------------------------------------------------

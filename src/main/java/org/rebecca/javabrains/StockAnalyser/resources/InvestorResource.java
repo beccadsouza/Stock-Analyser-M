@@ -16,6 +16,7 @@ import java.util.List;
 @Path("/investors")
 @Produces(MediaType.APPLICATION_JSON)
 
+
 public class InvestorResource {
     private InvestorService investorService = new InvestorService();
     @GET

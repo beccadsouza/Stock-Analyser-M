@@ -1,7 +1,6 @@
 package org.rebecca.javabrains.StockAnalyser.model;
 
 public class BarGraph {
-    //investor name, sum(market value) by Q1, sum(market value) by Q2, sum(market value) by Q3, sum(market value) by Q4
     private String investorName;
     private double Q1;
     private double Q2;

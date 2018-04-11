@@ -1,0 +1,185 @@
+http://localhost:8080/webapi/investors/scoreboard
+[
+    {
+        "companyName": "pusheen",
+        "investorCity": "mumbai",
+        "investorID": "17",
+        "investorName": "kevin",
+        "investorState": "maha",
+        "ranking": 1,
+        "sumMarketValue": 39
+    },
+    {
+        "companyName": "pusheen",
+        "investorCity": "mumbai",
+        "investorID": "18",
+        "investorName": "rebecca",
+        "investorState": "maha",
+        "ranking": 2,
+        "sumMarketValue": 5000
+    }
+]
+http://localhost:8080/webapi/holdings/investor-id
+[
+    {
+        "changeInShares": 34,
+        "companyID": "pusheen",
+        "companyName": "chickadee",
+        "marketValue": 34,
+        "perPortfolio": 0.8717948717948718,
+        "percentChange": 7.34,
+        "principalAmount": 34,
+        "quarter": 1,
+        "sector": "accessory",
+        "ticker": ""
+    },
+    {
+        "changeInShares": 3,
+        "companyID": "morgan stanley",
+        "companyName": "ms",
+        "marketValue": 5,
+        "perPortfolio": 0.1282051282051282,
+        "percentChange": 2,
+        "principalAmount": 4,
+        "quarter": 2,
+        "sector": "finance",
+        "ticker": "MS"
+    }
+]
+
+http://localhost:8080/webapi/holdings?company=company-id&quarter=quarter-number
+[
+    {
+        "changeInShares": 5000,
+        "investorCity": "rebecca",
+        "investorID": "18",
+        "investorName": "rebecca",
+        "investorState": "maha",
+        "marketValue": 5000,
+        "perPortfolio": 1,
+        "percentChange": 2.24,
+        "principalAmount": 5000
+    }
+]
+http://localhost:8080/webapi/investors/portfolio/investor-id
+{
+    "address": "bandra",
+    "city": "mumbai",
+    "description": "student",
+    "holdingConc": 2.24,
+    "investorID": "18",
+    "name": "rebecca",
+    "noClients": 6,
+    "registration": "2016130019",
+    "state": "maha",
+    "type": "temporary"
+}
+
+http://localhost:8080/webapi/investors/sectors/investor-id
+[
+    {
+        "sector": "accessory",
+        "sumMarketValue": 34
+    },
+    {
+        "sector": "finance",
+        "sumMarketValue": 5
+    }
+]
+http://localhost:8080/webapi/investors/quarters/investor-id
+[
+    {
+        "quarter": 1,
+        "sumMarketValue": 34
+    },
+    {
+        "quarter": 2,
+        "sumMarketValue": 5
+    }
+]
+http://localhost:8080/webapi/company/hotpicks
+[
+    {
+        "companyID": "pusheen",
+        "companyName": "chickadee",
+        "largestHolder": "rebecca",
+        "numFilers": 2,
+        "sector": "accessory",
+        "sumChangeInShares": 5034,
+        "sumMarketValue": 5034,
+        "sumPrincipalAmount": 5034,
+        "ticker": ""
+    },
+    {
+        "companyID": "morgan stanley",
+        "companyName": "ms",
+        "largestHolder": "kevin",
+        "numFilers": 1,
+        "sector": "finance",
+        "sumChangeInShares": 3,
+        "sumMarketValue": 5,
+        "sumPrincipalAmount": 4,
+        "ticker": "MS"
+    }
+]
+http://localhost:8080/webapi/company/coldpicks
+
+http://localhost:8080/webapi/company/consensus
+[
+    {
+        "companyName": "chickadee",
+        "largestHolder": "rebecca",
+        "numFilers": 2,
+        "sector": "accessory",
+        "sumMarketValue": 5034,
+        "ticker": ""
+    },
+    {
+        "companyName": "ms",
+        "largestHolder": "kevin",
+        "numFilers": 1,
+        "sector": "finance",
+        "sumMarketValue": 5,
+        "ticker": "MS"
+    }
+]
+http://localhost:8080/webapi/company/company-id
+{
+    "address": "athena",
+    "city": "mumbai",
+    "companyID": "morgan stanley",
+    "description": "investments",
+    "name": "ms",
+    "sector": "finance",
+    "state": "maha",
+    "ticker": "MS"
+}
+http://localhost:8080/webapi/company/quarters/company-id
+[
+    {
+        "quarter": 1,
+        "sumMarketValue": 34
+    },
+    {
+        "quarter": 2,
+        "sumMarketValue": 5000
+    }
+]
+http://localhost:8080/webapi/company/bargraph/company-id
+[
+    {
+        "investorName": "17",
+        "q1": 34,
+        "q2": 0,
+        "q3": 0,
+        "q4": 0
+    },
+    {
+        "investorName": "18",
+        "q1": 0,
+        "q2": 5000,
+        "q3": 0,
+        "q4": 0
+    }
+]
+

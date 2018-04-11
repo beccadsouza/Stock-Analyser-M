@@ -101,19 +101,34 @@ public class CompanyService {
         List<QuarterDetails> list = new ArrayList<>();
         try{
             Connection connection = jdbcConnection.getConnnection();
-            PreparedStatement ps = connection.prepareStatement("select 4/2");
-            //ResultSet rs = ps.executeQuery();
+            PreparedStatement ps = connection.prepareStatement("select h.quarter_no,sum(h.market_value) from holding as h inner join company as c on h.company_id = c.company_id where c.company_id = '"+companyID+"' group by h.quarter_no");
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()){
+                list.add(new QuarterDetails(rs.getLong(1),rs.getDouble(2)));
+            }
         }catch (SQLException e){
             e.printStackTrace();
         }
         return list;
     }
-    public List<BarGraph> getBarGraph(){
+    public List<BarGraph> getBarGraph(String companyID){
         List<BarGraph> barGraphs = new ArrayList<>();
         try {
             Connection connection = jdbcConnection.getConnnection();
-            PreparedStatement ps = connection.prepareStatement("select 4/2 ");
-            //ResultSet rs = ps.executeQuery();
+            PreparedStatement ps = connection.prepareStatement("select i.investor_id,\n" +
+                    "  (select sum(h.market_value) from holding where quarter_no=1 and investor_id=i.investor_id and company_id = h.company_id) as Q1,\n" +
+                    "  (select sum(h.market_value) from holding where quarter_no=2 and investor_id=i.investor_id and company_id = h.company_id) as Q2,\n" +
+                    "  (select sum(h.market_value) from holding where quarter_no=3 and investor_id=i.investor_id and company_id = h.company_id) as Q3,\n" +
+                    "  (select sum(h.market_value) from holding where quarter_no=4 and investor_id=i.investor_id and company_id = h.company_id) as Q4\n" +
+                    "from holding as h\n" +
+                    "inner join investor as i\n" +
+                    "on i.investor_id = h.investor_id\n" +
+                    "where h.company_id = '"+companyID+"'\n" +
+                    "group by i.investor_id; ");
+            ResultSet rs = ps.executeQuery();
+            while(rs.next()){
+                barGraphs.add(new BarGraph(rs.getString(1),rs.getDouble(2),rs.getDouble(3),rs.getDouble(4),rs.getDouble(5)));
+            }
         } catch (SQLException e) {
             e.printStackTrace();
         }

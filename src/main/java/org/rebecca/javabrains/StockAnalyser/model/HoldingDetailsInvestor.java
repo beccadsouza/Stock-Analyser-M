@@ -8,6 +8,23 @@ public class HoldingDetailsInvestor {
     private double principalAmount;
     private double marketValue;
     private long quarter;
+
+    @Override
+    public String toString() {
+        return "HoldingDetailsInvestor{" +
+                "companyID='" + companyID + '\'' +
+                ", companyName='" + companyName + '\'' +
+                ", ticker='" + ticker + '\'' +
+                ", sector='" + sector + '\'' +
+                ", principalAmount=" + principalAmount +
+                ", marketValue=" + marketValue +
+                ", quarter=" + quarter +
+                ", percentChange=" + percentChange +
+                ", changeInShares=" + changeInShares +
+                ", perPortfolio=" + perPortfolio +
+                '}';
+    }
+
     private double percentChange;
     private double changeInShares;
     private double perPortfolio;

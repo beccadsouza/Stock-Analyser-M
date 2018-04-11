@@ -20,8 +20,8 @@ public class HoldingResource {
     }
 
     @GET
-    public List<HoldingDetailsCompany> getHoldingDetailsByCompany(@QueryParam("companyID") String companyID,
-                                                                  @QueryParam("quater") long quarter){
+    public List<HoldingDetailsCompany> getHoldingDetailsByCompany(@QueryParam("company") String companyID,
+                                                                  @QueryParam("quarter") long quarter){
         return holdingService.getHoldingDetailsByCompany(companyID,quarter);
     }
 }

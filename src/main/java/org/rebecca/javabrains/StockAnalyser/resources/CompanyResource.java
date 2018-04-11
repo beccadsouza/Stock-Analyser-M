@@ -10,15 +10,15 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
-@Path("/companies")
+@Path("/company")
 @Produces(MediaType.APPLICATION_JSON)
 public class CompanyResource {
     private CompanyService companyService = new CompanyService();
 
     @GET
     @Path("/{companyID}")
-    public Company getCompany(@PathParam("companyID") String company){
-        return companyService.getCompanyByID(company);
+    public Company getCompany(@PathParam("companyID") String companyID){
+        return companyService.getCompanyByID(companyID);
     }
     @GET
     @Path("/quarters/{companyID}")
@@ -41,8 +41,8 @@ public class CompanyResource {
         return companyService.getHotPicks();
     }
     @GET
-    @Path("/bargraph")
-    public List<BarGraph> getBarGraph(){
-        return companyService.getBarGraph();
+    @Path("/bargraph/{companyID}")
+    public List<BarGraph> getBarGraph(@PathParam("companyID") String companyID){
+        return companyService.getBarGraph(companyID);
     }
 }
