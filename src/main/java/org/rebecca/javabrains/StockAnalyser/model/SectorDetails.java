@@ -1,29 +1,29 @@
 package org.rebecca.javabrains.StockAnalyser.model;
 
 public class SectorDetails {
-    private String sector;
-    private double sumMarketValue;
+    private String name;
+    private double y;
 
     public SectorDetails() { }
 
-    public SectorDetails(String sector, double sumMarketValue) {
-        this.sector = sector;
-        this.sumMarketValue = sumMarketValue;
+    public SectorDetails(String name, double y) {
+        this.name = name;
+        this.y = y;
     }
 
-    public String getSector() {
-        return sector;
+    public String getName() {
+        return name;
     }
 
-    public void setSector(String sector) {
-        this.sector = sector;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public double getSumMarketValue() {
-        return sumMarketValue;
+    public double getY() {
+        return y;
     }
 
-    public void setSumMarketValue(double sumMarketValue) {
-        this.sumMarketValue = sumMarketValue;
+    public void setY(double y) {
+        this.y = y;
     }
 }

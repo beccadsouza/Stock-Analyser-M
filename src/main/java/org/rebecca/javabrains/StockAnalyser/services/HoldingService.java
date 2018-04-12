@@ -44,7 +44,7 @@ public class HoldingService {
         List<HoldingDetailsCompany> list = new ArrayList<>();
         try{
             Connection connection = jdbcConnection.getConnnection();
-            PreparedStatement ps1 = connection.prepareStatement("select i.investor_id,i.name,i.name,i.state,h.princ_amt,h.market_value,h.per_change,h.change_shares\n" +
+            PreparedStatement ps1 = connection.prepareStatement("select i.investor_id,i.name,i.city,i.state,h.princ_amt,h.market_value,h.per_change,h.change_shares\n" +
                     "from investor as i\n" +
                     "inner join holding as h\n" +
                     "on h.investor_id = i.investor_id\n" +

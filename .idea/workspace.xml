@@ -8,7 +8,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e554a3f9-1586-4cf6-a1fa-c6c6fd6352c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/Stock-Analyser/WEB-INF/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/HoldingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/rebecca/javabrains/StockAnalyser/services/InvestorService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,12 +59,12 @@
     <option name="HIDE_WARNINGS" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="InvestorService.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="InvestorService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+            <state relative-caret-position="187">
+              <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +72,69 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="SectorDetails.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#437#438#0" expanded="true" />
+                <element signature="e#461#462#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#534#535#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="86" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+            <state>
+              <caret column="117" selection-start-column="117" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoldingService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HoldingDetailsCompany.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsCompany.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InvestorResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-17">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,6 +155,8 @@
       <find>Messenger</find>
       <find>Investor</find>
       <find>investor</find>
+      <find>sector</find>
+      <find>sumMarketValue</find>
     </findStrings>
     <replaceStrings>
       <replace>Stock-Analyser</replace>
@@ -99,6 +164,7 @@
       <replace>Holding</replace>
       <replace>Company</replace>
       <replace>company</replace>
+      <replace>y</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -133,21 +199,21 @@
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Scoreboard.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsCompany.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/QuarterDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Picks.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Consensus.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/BarGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsInvestor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.java" />
         <option value="$PROJECT_DIR$/src/services list" />
         <option value="$PROJECT_DIR$/src/url list" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java" />
       </list>
     </option>
   </component>
@@ -177,10 +243,14 @@
       <select />
     </treeState>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="676" />
-    <option name="width" value="697" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -190,6 +260,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -306,9 +379,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,12 +584,13 @@
       <workItem from="1523249932420" duration="3882000" />
       <workItem from="1523367921028" duration="15747000" />
       <workItem from="1523430392516" duration="10960000" />
-      <workItem from="1523459572076" duration="423000" />
+      <workItem from="1523459572076" duration="1000000" />
+      <workItem from="1523513282008" duration="1968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113931000" />
+    <option name="totallyTimeSpent" value="116476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -543,23 +614,23 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32913387" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.02118003" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.49016643" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="SQL" order="16" weight="0.32913387" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28696924" />
+      <window_info anchor="bottom" id="Database Console" order="15" visible="true" weight="0.22844176" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24377745" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="15" weight="0.31770045" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.3984252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,13 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="99" column="68" lean-forward="true" selection-start-line="99" selection-start-column="68" selection-end-line="99" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/database/DBconnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -694,22 +758,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-          <folding>
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -779,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/Consensus.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
@@ -821,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="66" column="9" lean-forward="true" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/HoldingResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="99">
@@ -846,6 +880,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
           <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -856,29 +893,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HoldingDetailsCompany.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/HoldingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="42" column="57" selection-start-line="42" selection-start-column="57" selection-end-line="42" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="86" selection-start-line="22" selection-start-column="80" selection-end-line="22" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="117" selection-start-column="117" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="53" column="20" lean-forward="true" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/669feea3-cc1a-4b4d-b7af-cf9b36974d70/console.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="66" selection-start-line="1" selection-start-column="66" selection-end-line="1" selection-end-column="66" />
+        <state relative-caret-position="-17">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/InvestorService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/SectorDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+        <state relative-caret-position="153">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#437#438#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
           </folding>
         </state>
       </provider>
