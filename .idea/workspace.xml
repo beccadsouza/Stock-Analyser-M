@@ -7,10 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e554a3f9-1586-4cf6-a1fa-c6c6fd6352c0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/669feea3-cc1a-4b4d-b7af-cf9b36974d70.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -57,30 +54,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HeatMap.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HeatMap.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HeatMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="459">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#500#501#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+                <element signature="e#581#582#0" expanded="true" />
+                <element signature="e#613#614#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompanyService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CompanyService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -92,7 +91,21 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5485b959-6beb-4fb4-a823-f553b815654e/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompanyResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="method#getCompany#0;class#CompanyResource#0" />
+                <element signature="method#getQuarterDetails#0;class#CompanyResource#0" />
+                <element signature="method#getBarGraph#0;class#CompanyResource#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -118,6 +131,8 @@
       <find>+</find>
       <find>&quot;</find>
       <find>\n</find>
+      <find>marketValue</find>
+      <find>CompanyName</find>
     </findStrings>
     <replaceStrings>
       <replace>Stock-Analyser</replace>
@@ -126,6 +141,8 @@
       <replace>Company</replace>
       <replace>company</replace>
       <replace>y</replace>
+      <replace>colorValue</replace>
+      <replace>Name</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -223,9 +240,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -551,12 +568,13 @@
       <workItem from="1523513282008" duration="3143000" />
       <workItem from="1523523786696" duration="860000" />
       <workItem from="1523533814868" duration="4500000" />
-      <workItem from="1523549370949" duration="1128000" />
+      <workItem from="1523549370949" duration="1732000" />
+      <workItem from="1523552796857" duration="489000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124139000" />
+    <option name="totallyTimeSpent" value="125232000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -580,11 +598,10 @@
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32913387" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.6096823" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49853587" weight="0.6459909" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="SQL" order="15" weight="0.32913387" />
-      <window_info anchor="bottom" id="Database Console" order="16" weight="0.591528" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532943" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -593,15 +610,16 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.591528" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.3984252" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32913387" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32913387" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="SQL" order="16" weight="0.32913387" />
       <window_info anchor="bottom" id="REST Client" order="11" weight="0.3984252" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.46293494" />
@@ -620,7 +638,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15446559" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32913387" />
-      <window_info anchor="bottom" id="Database Changes" order="13" weight="0.32913387" />
+      <window_info anchor="bottom" id="SQL" order="16" weight="0.32913387" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.329429" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -849,38 +867,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/HeatMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="method#getCompany#0;class#CompanyResource#0" />
-            <element signature="method#getQuarterDetails#0;class#CompanyResource#0" />
-            <element signature="method#getBarGraph#0;class#CompanyResource#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/HeatMap.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/InvestorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="117">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,33 +905,47 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5485b959-6beb-4fb4-a823-f553b815654e/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/resources/CompanyResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="151">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#getCompany#0;class#CompanyResource#0" />
+            <element signature="method#getQuarterDetails#0;class#CompanyResource#0" />
+            <element signature="method#getBarGraph#0;class#CompanyResource#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/model/HeatMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/rebecca/javabrains/StockAnalyser/services/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
