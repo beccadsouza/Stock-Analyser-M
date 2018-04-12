@@ -40,8 +40,8 @@ public class CompanyService {
                     "from company as c\n" +
                     "inner join holding as h\n" +
                     "on h.company_id = c.company_id\n" +
-                    "where h.change_shares >0\n" +
                     "group by c.company_id,c.name,c.sector,c.ticker\n" +
+                    "having sum(h.change_shares) >0\n" +
                     "order by s4 desc;");
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
@@ -63,8 +63,8 @@ public class CompanyService {
                     "from company as c\n" +
                     "inner join holding as h\n" +
                     "on h.company_id = c.company_id\n" +
-                    "where h.change_shares <0\n" +
                     "group by c.company_id,c.name,c.sector,c.ticker\n" +
+                    "having sum(h.change_shares)<1000\n" +
                     "order by s4;");
             ResultSet rs = ps.executeQuery();
             while(rs.next()){

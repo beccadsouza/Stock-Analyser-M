@@ -18,10 +18,10 @@ public class HoldingService {
         List<HoldingDetailsInvestor> list = new ArrayList<>();
         try{
             double totalMarketValue = 0.0;
-            HoldingDetailsInvestor holdingDetailsInvestor = new HoldingDetailsInvestor();
+            HoldingDetailsInvestor holdingDetailsInvestor;
             Connection connection = jdbcConnection.getConnnection();
             PreparedStatement ps1 = connection.prepareStatement(
-                    "select c.company_id,c.name,c.ticker,c.sector,h.princ_amt,h.market_value,h.quarter_no,h.per_change,h.change_shares from holding as h inner join company as c on c.company_id = h.company_id where h.investor_id = '"+investorID+"';");
+                    "select c.company_id,c.name,c.ticker,c.sector,h.princ_amt,h.market_value,h.quarter_no,h.per_change,h.change_shares from holding as h inner join company as c on c.company_id = h.company_id where h.investor_id = '"+investorID+"' order by quarter_no desc;\n");
             ResultSet rs1 = ps1.executeQuery();
             PreparedStatement ps2 = connection.prepareStatement("select sum(market_value) from holding where investor_id='"+investorID+"';");
             ResultSet rs2 = ps2.executeQuery();

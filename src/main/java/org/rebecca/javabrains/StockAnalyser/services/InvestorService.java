@@ -22,10 +22,10 @@ public class InvestorService {
             PreparedStatement ps = connection.prepareStatement("select * from investor "+ "where investor_id = '"+investorID+"'");
             ResultSet rs = ps.executeQuery();
             while (rs.next()){
-                investor = new Investor(rs.getString("description"),rs.getString("address"),
-                        rs.getInt("no_clients"), rs.getString("type"), rs.getString("state")
-                        ,rs.getString("city"),rs.getString("name"), rs.getString("investor_id"),
-                        rs.getString("registration"),rs.getDouble("holding_conc"));
+                investor = new Investor(rs.getString(1),rs.getString(2),
+                         rs.getString(3), rs.getString(4)
+                        ,rs.getString(5),rs.getString(6), rs.getString(7),
+                        rs.getDouble(8));
             }
         } catch (SQLException e) {
             e.printStackTrace();

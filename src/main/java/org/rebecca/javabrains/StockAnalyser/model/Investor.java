@@ -3,27 +3,26 @@ package org.rebecca.javabrains.StockAnalyser.model;
 public class Investor{
     private String description;
     private String address;
-    private long noClients;
+
+    public Investor() {
+    }
+
     private String type;
     private String state;
     private String city;
     private String name;
     private String investorID;
-    private String registration;
     private double holdingConc;
 
-    public Investor() { }
 
-    public Investor(String description, String address, long noClients, String type, String state, String city, String name, String investorID, String registration, double holdingConc) {
+    public Investor(String description, String address, String type, String state, String city, String name, String investorID, double holdingConc) {
         this.description = description;
         this.address = address;
-        this.noClients = noClients;
         this.type = type;
         this.state = state;
         this.city = city;
         this.name = name;
         this.investorID = investorID;
-        this.registration = registration;
         this.holdingConc = holdingConc;
     }
 
@@ -41,14 +40,6 @@ public class Investor{
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public long getNoClients() {
-        return noClients;
-    }
-
-    public void setNoClients(long noClients) {
-        this.noClients = noClients;
     }
 
     public String getType() {
@@ -89,14 +80,6 @@ public class Investor{
 
     public void setInvestorID(String investorID) {
         this.investorID = investorID;
-    }
-
-    public String getRegistration() {
-        return registration;
-    }
-
-    public void setRegistration(String registration) {
-        this.registration = registration;
     }
 
     public double getHoldingConc() {
