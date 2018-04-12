@@ -41,6 +41,11 @@ public class CompanyResource {
         return companyService.getHotPicks();
     }
     @GET
+    @Path("/heatmaps")
+    public List<HeatMap> getHeatMaps(){
+        return companyService.getHeatMaps();
+    }
+    @GET
     @Path("/bargraph/{companyID}")
     public List<BarGraph> getBarGraph(@PathParam("companyID") String companyID){
         return companyService.getBarGraph(companyID);

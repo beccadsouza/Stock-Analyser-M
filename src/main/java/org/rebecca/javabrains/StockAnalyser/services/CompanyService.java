@@ -13,6 +13,29 @@ import java.util.List;
 public class CompanyService {
     private DBconnection jdbcConnection = new DBconnection();
 
+    public List<HeatMap> getHeatMaps(){
+        List<HeatMap> list = new ArrayList<>();
+        try{
+            Connection connection = jdbcConnection.getConnnection();
+            PreparedStatement ps = connection.prepareStatement("select c.name, sum(h.market_value)\n" +
+                    "from holding as h inner join company c on h.company_id = c.company_id\n" +
+                    "group by c.name order by sum(h.market_value) desc;");
+            ResultSet rs = ps.executeQuery();
+            long rank = 0;
+            HeatMap heatMap;
+            while(rs.next()){
+                rank += 1;
+                heatMap = new HeatMap(0,rs.getString(1),rs.getDouble(2));
+                heatMap.setRank(rank);
+                list.add(heatMap);
+            }
+        }
+        catch(SQLException e){
+            e.printStackTrace();
+        }
+        return list;
+    }
+
     public Company getCompanyByID(String companyID){
         Company company = new Company();
         try {
