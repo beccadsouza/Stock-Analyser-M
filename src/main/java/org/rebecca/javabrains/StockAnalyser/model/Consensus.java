@@ -1,7 +1,7 @@
 package org.rebecca.javabrains.StockAnalyser.model;
 
 public class Consensus {
-
+    private String companyID;
     private String companyName;
     private String ticker;
     private String sector;
@@ -11,7 +11,17 @@ public class Consensus {
 
     public Consensus() { }
 
-    public Consensus(String companyName, String ticker, String sector, long numFilers, String largestHolder, double sumMarketValue) {
+    public String getCompanyID() {
+        return companyID;
+    }
+
+    public void setCompanyID(String companyID) {
+        this.companyID = companyID;
+    }
+
+    public Consensus(String companyID, String companyName, String ticker, String sector, long numFilers, String largestHolder, double sumMarketValue) {
+        this.companyID = companyID;
+
         this.companyName = companyName;
         this.ticker = ticker;
         this.sector = sector;

@@ -3,23 +3,31 @@ package org.rebecca.javabrains.StockAnalyser.model;
 public class HeatMap {
     private String name;
     private double colorValue;
-    private long rank;
+    private long value = 2;
 
-    public long getRank() {
-        return rank;
+
+    public double getColorValue() {
+        return colorValue;
     }
 
-    public void setRank(long rank) {
-        this.rank = rank;
+    public void setColorValue(double colorValue) {
+        this.colorValue = colorValue;
     }
 
     public HeatMap() {
     }
 
-    public HeatMap(long rank,String name, double colorValue) {
-        this.rank = rank;
+    public HeatMap(String name, double colorValue) {
         this.name = name;
         this.colorValue = colorValue;
+    }
+
+    public long getValue() {
+        return value;
+    }
+
+    public void setValue(long value) {
+        this.value = value;
     }
 
     public String getName() {
